@@ -1,3 +1,4 @@
+# COMPLETED
 # Grouping Selectors
 
 Let's build a little off the previous exercise, in which you (hopefully) added multiple classes to a single element in order to apply two different rules to it.
