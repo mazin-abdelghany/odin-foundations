@@ -1,0 +1,14 @@
+.first-colors,
+.second-colors {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.first-colors {
+    background-color: #000;
+    color: #fff;
+}
+
+.second-colors {
+    background-color: rgb(255, 255, 0);
+}
