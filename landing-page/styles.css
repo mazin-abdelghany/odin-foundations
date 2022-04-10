@@ -10,7 +10,7 @@
     color: #f9faf8;
 }
 
-h2 {
+.header-logo {
     font-size: 24px;
     color: #f9faf8;
 }
@@ -34,7 +34,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 0px 120px;
+    padding: 0px 130px;
 }
 
 a {
@@ -75,4 +75,47 @@ a {
 
 .subtext {
     padding-bottom: 10px;
+}
+
+.info-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 200px;
+    padding-bottom: 80px;
+}
+
+.img-and-subtext {
+    display: flex;
+}
+
+.img-bordered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.img-box {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 32px 0px;
+}
+
+.img-subtext {
+    font-size: 14px;
+    width: 160px;
+    color: gray;
+    text-align: center;
+    padding-top: 6px;
 }
