@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body {
+    font-family: Roboto;
+}
+
 .awesome-text {
     font-size: 48px;
     font-weight: 900;
@@ -34,7 +38,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 0px 130px;
+    padding: 0px 160px;
 }
 
 a {
@@ -54,7 +58,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    gap: 12px;
+    gap: 42px;
     padding: 100px 0px;
 }
 
@@ -118,4 +122,29 @@ a {
     color: gray;
     text-align: center;
     padding-top: 6px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 250px 80px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.attribution {
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    color: black;
+    align-self: end;
+    padding-right: 32px;
 }
